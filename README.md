@@ -55,15 +55,20 @@ Access the application at `http://127.0.0.1:8000/`.
 ```
 personal_library_manager/
 |-- manage.py                  # Django project management file
-|-- personal_library_manager/  # Main project settings
+|-- library_manager/  # Main project settings
 |   |-- __init__.py
 |   |-- settings.py            # Project settings
 |   |-- urls.py                # URL configuration
 |   |-- wsgi.py                # WSGI application
-|-- library_app/               # Custom app for book management
+|-- books/               # Custom app for book management
 |   |-- migrations/            # Database migrations
 |   |-- templates/             # HTML templates
-|   |-- static/                # Static files (CSS, JS)
+|   |-- models.py              # Data models for the app
+|   |-- views.py               # Views for CRUD and authentication
+|   |-- urls.py                # URL routing for the app
+|-- accounts/               # Custom app for book management
+|   |-- migrations/            # Database migrations
+|   |-- templates/             # HTML templates
 |   |-- models.py              # Data models for the app
 |   |-- views.py               # Views for CRUD and authentication
 |   |-- urls.py                # URL routing for the app
