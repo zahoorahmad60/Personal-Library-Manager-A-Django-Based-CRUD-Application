@@ -12,7 +12,7 @@ Follow these steps to set up and run the application on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
+git clone <https://github.com/zahoorahmad60/Personal-Library-Manager-A-Django-Based-CRUD-Application>
 cd personal_library_manager
 ```
 
@@ -71,14 +71,6 @@ personal_library_manager/
 |-- requirements.txt           # Project dependencies
 |-- README.md                  # Project documentation
 ```
-
----
-
-## `requirements.txt`
-```
-Django>=4.0
-```
-
 ---
 
 ## Notes
