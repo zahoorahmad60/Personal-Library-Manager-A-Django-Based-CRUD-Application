@@ -13,7 +13,7 @@ Follow these steps to set up and run the application on your local machine:
 ### 1. Clone the Repository
 ```bash
 git clone <https://github.com/zahoorahmad60/Personal-Library-Manager-A-Django-Based-CRUD-Application>
-cd personal_library_manager
+cd library_manager
 ```
 
 ### 2. Create a Python Virtual Environment
